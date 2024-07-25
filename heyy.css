@@ -1,0 +1,51 @@
+.cl
+{
+    background-color: rgb(237, 242, 242);
+}
+.main{
+    display:flex
+}
+.king{
+    margin-left: 15%;
+    margin-top: 2%;
+    color: white;
+    word-spacing: 40px;
+    border-radius: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: white;
+}
+.ling{
+    background-color: lightblue;
+     padding: 1px  30px;
+     border-radius: 4px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mdu{
+    font-size: larger;
+    padding-left: 340px;
+    margin-top: -40px;
+    color: azure;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+a:hover{
+    color:brown;
+
+}
+button:hover{
+    color:brown;
+    background-color: whitesmoke;
+}
+img:hover{
+    animation: shake 100ms;
+    animation-iteration-count: infinite;
+}
+    @keyframes shake {
+        5% { transform: translate(1px, 1px) rotate(0deg); }
+        
+      
+    }
