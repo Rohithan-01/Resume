@@ -3,7 +3,8 @@
     background-color: rgb(237, 242, 242);
 }
 .main{
-    display:flex
+    display:flex;
+    
 }
 .king{
     margin-left: 15%;
@@ -32,20 +33,43 @@ a:link,a:visited{
     font-family: 'Times New Roman', Times, serif;
 
 }
+table,th,td,tr{
+    border: white solid;
+    text-align: center;
+    padding: ;
+}
+.sk{
+    font-size: medium;
+    color: azure;
+    padding-left:-100px;
+    width: 100%;
+ padding-top: 15%;  
+   
+}
+.op{
+    display: flex;
+    width: 50%;
+}
+.si{
+    font-size: medium;
+    color: azure;
+    padding-top: 10%;
+    padding-right: 10%;
+    /* padding-bottom: 5%; */
+}
 a:hover{
     color:brown;
-
-}
+    font-size: 20px;
+} 
 button:hover{
     color:brown;
     background-color: whitesmoke;
 }
-img:hover{
-    animation: shake 100ms;
+img{
+    animation: shake 500ms;
     animation-iteration-count: infinite;
 }
     @keyframes shake {
-        5% { transform: translate(1px, 1px) rotate(0deg); }
-        
-      
+        5% { transform: translate(1px, 1px) rotate(0deg); }     
     }
+
